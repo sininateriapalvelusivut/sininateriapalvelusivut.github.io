@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>https://www.sininateriapalvelu.fi/</loc>
+        <priority>1.00</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.sininateriapalvelu.fi/"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/palvelut/juhlat</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/palvelut/juhlat"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/palvelut/kokoukset</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/palvelut/kokoukset"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/palvelut/leirit</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/palvelut/leirit"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/palvelut/astiavuokraus</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/palvelut/astiavuokraus"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/galleria</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/galleria"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/yritys</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/yritys"/>
+    </url>
+    <url>
+        <loc>https://sininateriapalvelu.fi/ota-yhteytta</loc>
+        <priority>0.80</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://sininateriapalvelu.fi/ota-yhteytta"/>
+    </url>
+</urlset>
