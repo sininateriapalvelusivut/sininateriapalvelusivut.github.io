@@ -1,3 +1,8 @@
+:root {
+  --purple: #512f85;
+  --white: white;
+}
+
 .w-layout-grid {
   grid-row-gap: 16px;
   grid-column-gap: 16px;
@@ -107,7 +112,7 @@ body {
 }
 
 .section.footer.purple {
-  background-color: #512f85;
+  background-color: var(--purple);
 }
 
 .section.menu {
@@ -149,7 +154,7 @@ body {
 }
 
 .section.gallery-section.purple, .section.hero.purple {
-  background-color: #512f85;
+  background-color: var(--purple);
 }
 
 .home-slider {
@@ -199,7 +204,7 @@ body {
 }
 
 .paragraph.white {
-  color: #fff;
+  color: var(--white);
 }
 
 .hero-heading {
@@ -234,7 +239,7 @@ body {
 }
 
 .hero-heading.menu.gallery.white {
-  color: #fff;
+  color: var(--white);
 }
 
 .hero-heading.testi {
@@ -261,7 +266,7 @@ body {
 }
 
 .welcome.white {
-  color: #fff;
+  color: var(--white);
 }
 
 .heading {
@@ -290,7 +295,7 @@ body {
 }
 
 .heading.white {
-  color: #fff;
+  color: var(--white);
 }
 
 .hero-camera {
@@ -349,7 +354,7 @@ body {
 }
 
 .footer-link {
-  color: #fff;
+  color: var(--white);
   letter-spacing: 1.1px;
   text-transform: none;
   flex-direction: column;
@@ -372,7 +377,7 @@ body {
 }
 
 .footer-link-left {
-  color: #fff;
+  color: var(--white);
   flex-direction: column;
   align-items: flex-end;
   font-family: Lora, sans-serif;
@@ -908,6 +913,12 @@ body {
 
 .image-full.bottom {
   object-position: 50% 100%;
+}
+
+.oiva-logo {
+  width: 100px;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 1440px) {
@@ -1485,6 +1496,7 @@ body {
   .footer {
     grid-column-gap: 30px;
     grid-row-gap: 30px;
+    padding-bottom: 60px;
   }
 
   .image-3 {
