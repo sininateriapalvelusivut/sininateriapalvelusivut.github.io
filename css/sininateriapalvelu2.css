@@ -169,20 +169,20 @@ body {
 }
 
 .slide-1 {
-  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/IMG_20230414_184535.jpg');
+  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/vaalean-sininen-juhlakattaus.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   overflow: visible;
 }
 
 .slide-3 {
-  background-image: linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58)), url('../images/IMG_20230120_170716_1~3.jpg');
+  background-image: linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58)), url('../images/ruokailualue.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
 
 .slide-2 {
-  background-image: linear-gradient(135deg, rgba(44, 42, 39, .47), rgba(255, 255, 255, 0)), url('../images/IMG_20220813_114412_1.jpg');
+  background-image: linear-gradient(135deg, rgba(44, 42, 39, .47), rgba(255, 255, 255, 0)), url('../images/vihrea-kokouskattaus.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
@@ -635,10 +635,10 @@ body {
 }
 
 .slide-4 {
-  background-image: url('../images/IMG_20221022_211854_1.jpg'), linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58));
-  background-position: 50%, 0 0;
-  background-repeat: no-repeat, repeat;
-  background-size: cover, auto;
+  background-image: linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58)), url('../images/astiat.webp');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
 }
 
 .dropdown {
@@ -1678,7 +1678,7 @@ body {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_1206fcc3-572e-b517-dbed-4610399805ae-7e99ddab, #w-node-c7ae9ec3-e24c-efd0-0f96-28f4c977e045-7e99ddab, #w-node-_0af6d1f2-b48e-653d-e665-d4d5e24988f8-7e99ddab, #w-node-_31c71acd-007b-33c3-b91d-1c77e9d6ccd7-7e99ddab, #w-node-a20c7f68-9121-f1bf-bb80-666a5929d0bf-7e99ddab, #w-node-dfc13ac2-233a-c0b3-03f7-79bd20f12285-7e99ddab, #w-node-_87bb01b0-65d9-d3f6-53bc-3eae53e8e0e2-7e99ddab, #w-node-d485b46c-6e50-b8d2-b1a2-69bf39ddab3c-7e99ddab, #w-node-_2d9f6167-b4f5-482a-c6b1-0c8503e62b78-7e99ddab, #w-node-_67f7bbc6-da5d-fa38-95fb-97f55bdd9bab-7e99ddab, #w-node-f4caeab7-0935-4f33-0af6-6ea33ceac337-7e99ddab, #w-node-_9726c631-dfce-cefd-fd64-44723523a357-7e99ddab, #w-node-_8ea88f2b-1dd3-040f-5487-e7805a437135-7e99ddab, #w-node-_4e9caa45-5d81-33c6-9672-1f4632dc84b1-7e99ddab, #w-node-_2d9bac51-8738-d070-3d19-7056f2226226-7e99ddab, #w-node-_66126301-700d-9910-b0d6-17f5b91e67d6-7e99ddab, #w-node-e61d1a53-a8dd-44d9-13d6-7d2062dbfdad-7e99ddab, #w-node-_9d48a0dd-d050-4c7c-be8d-32a4ff78e3a1-7e99ddab, #w-node-_5727861d-1ebb-a0b4-65b2-0bd20b92a631-7e99ddab, #w-node-_749b1750-db2f-796f-5e43-53fdaa7b746f-7e99ddab, #w-node-ff80cdc0-e54a-5d90-8be1-7a865ccdb1c4-7e99ddab {
+#w-node-b9aa2511-6d2d-0e38-55e3-268b44f7b22d-7e99ddab, #w-node-_9799e24b-165e-43f7-4489-8d9f127c099d-7e99ddab, #w-node-acdb141a-bfe3-e325-6370-7663a31119d8-7e99ddab, #w-node-_877bc87a-334e-cf16-03c2-496b80a1e17f-7e99ddab, #w-node-_845b64f9-777c-f40c-8ba4-8155eda4ab3a-7e99ddab, #w-node-d1206211-33c9-6289-19e8-419b4f51a8cf-7e99ddab, #w-node-_3de03ca4-e86d-dd32-553a-c1af47dd70cb-7e99ddab, #w-node-c7947688-005a-8d6e-edba-a1989e37733b-7e99ddab, #w-node-_42d52d07-58e6-761d-c9cc-cd0941e9176a-7e99ddab, #w-node-a8be360a-979b-6f68-01b2-e32e2b9cdb9a-7e99ddab, #w-node-_1206fcc3-572e-b517-dbed-4610399805ae-7e99ddab, #w-node-_813f3c13-f1f9-8783-8469-af27f87ad11b-7e99ddab, #w-node-fdf99d4f-4999-d4c4-7c0c-c2fa8a451591-7e99ddab, #w-node-_20f00ac5-1d45-8e52-3ffb-160b31d895ba-7e99ddab, #w-node-_1823ea79-4582-f176-6103-f37ff402c911-7e99ddab, #w-node-c7ae9ec3-e24c-efd0-0f96-28f4c977e045-7e99ddab, #w-node-_0af6d1f2-b48e-653d-e665-d4d5e24988f8-7e99ddab, #w-node-_31c71acd-007b-33c3-b91d-1c77e9d6ccd7-7e99ddab, #w-node-a20c7f68-9121-f1bf-bb80-666a5929d0bf-7e99ddab, #w-node-dfc13ac2-233a-c0b3-03f7-79bd20f12285-7e99ddab, #w-node-_87bb01b0-65d9-d3f6-53bc-3eae53e8e0e2-7e99ddab, #w-node-d485b46c-6e50-b8d2-b1a2-69bf39ddab3c-7e99ddab, #w-node-_2d9f6167-b4f5-482a-c6b1-0c8503e62b78-7e99ddab, #w-node-_67f7bbc6-da5d-fa38-95fb-97f55bdd9bab-7e99ddab, #w-node-f4caeab7-0935-4f33-0af6-6ea33ceac337-7e99ddab, #w-node-_9726c631-dfce-cefd-fd64-44723523a357-7e99ddab, #w-node-_8ea88f2b-1dd3-040f-5487-e7805a437135-7e99ddab, #w-node-_4e9caa45-5d81-33c6-9672-1f4632dc84b1-7e99ddab, #w-node-_2d9bac51-8738-d070-3d19-7056f2226226-7e99ddab, #w-node-_66126301-700d-9910-b0d6-17f5b91e67d6-7e99ddab, #w-node-e61d1a53-a8dd-44d9-13d6-7d2062dbfdad-7e99ddab, #w-node-_9d48a0dd-d050-4c7c-be8d-32a4ff78e3a1-7e99ddab, #w-node-_5727861d-1ebb-a0b4-65b2-0bd20b92a631-7e99ddab, #w-node-_749b1750-db2f-796f-5e43-53fdaa7b746f-7e99ddab, #w-node-ff80cdc0-e54a-5d90-8be1-7a865ccdb1c4-7e99ddab {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
