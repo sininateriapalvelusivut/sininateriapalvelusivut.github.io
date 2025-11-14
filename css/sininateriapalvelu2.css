@@ -53,7 +53,7 @@ body {
 }
 
 .container.slider {
-  background-color: rgba(27, 26, 26, .1);
+  background-color: #1b1a1a1a;
   max-width: 1200px;
   height: 38%;
   padding-bottom: 60px;
@@ -76,11 +76,8 @@ body {
 .navbar {
   background-color: #fff;
   position: static;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-  box-shadow: 0 1px 20px rgba(0, 0, 0, .08);
+  inset: 0% 0% auto;
+  box-shadow: 0 1px 20px #00000014;
 }
 
 .navlink {
@@ -104,7 +101,7 @@ body {
 }
 
 .section.footer {
-  background-color: rgba(68, 41, 109, .16);
+  background-color: #44296d29;
   background-image: url('../images/backleaf2.png');
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -169,20 +166,20 @@ body {
 }
 
 .slide-1 {
-  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/vaalean-sininen-juhlakattaus.webp');
+  background-image: linear-gradient(135deg, #201f1d96, #fff0), url('../images/vaalean-sininen-juhlakattaus.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   overflow: visible;
 }
 
 .slide-3 {
-  background-image: linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58)), url('../images/ruokailualue.webp');
+  background-image: linear-gradient(315deg, #d1b9a100, #2a282594), url('../images/ruokailualue.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
 
 .slide-2 {
-  background-image: linear-gradient(135deg, rgba(44, 42, 39, .47), rgba(255, 255, 255, 0)), url('../images/vihrea-kokouskattaus.webp');
+  background-image: linear-gradient(135deg, #2c2a2778, #fff0), url('../images/vihrea-kokouskattaus.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
 }
@@ -233,7 +230,7 @@ body {
 }
 
 .hero-heading.menu.gallery {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   margin-left: 0;
   margin-right: 0;
 }
@@ -252,7 +249,7 @@ body {
 
 .left-arrow {
   color: #1a1a1a;
-  background-color: rgba(61, 61, 61, 0);
+  background-color: #3d3d3d00;
 }
 
 .welcome {
@@ -438,7 +435,7 @@ body {
   align-items: center;
   padding: 30px;
   display: flex;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, .1);
+  box-shadow: 1px 1px 20px #0000001a;
 }
 
 .heading-menu {
@@ -510,7 +507,7 @@ body {
 
 .horizontal-divider {
   color: #1a1a1a;
-  background-color: rgba(0, 0, 0, .43);
+  background-color: #0000006e;
   width: 100px;
   height: 1px;
   margin-top: 30px;
@@ -545,7 +542,7 @@ body {
 }
 
 .cover-story {
-  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/astiat.jpg');
+  background-image: linear-gradient(135deg, #201f1d96, #fff0), url('../images/astiat.jpg');
   background-position: 0 0, 50% 100%;
   background-size: auto, cover;
   height: 600px;
@@ -553,12 +550,12 @@ body {
 }
 
 .cover-story.juhlat {
-  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/juhlat.jpg');
+  background-image: linear-gradient(135deg, #201f1d96, #fff0), url('../images/juhlat.jpg');
   background-position: 0 0, 50%;
 }
 
 .cover-story.kokoukset {
-  background-image: linear-gradient(135deg, rgba(32, 31, 29, .59), rgba(255, 255, 255, 0)), url('../images/kokoukset.jpg');
+  background-image: linear-gradient(135deg, #201f1d96, #fff0), url('../images/kokoukset.jpg');
   background-position: 0 0, 50% 65%;
 }
 
@@ -635,7 +632,7 @@ body {
 }
 
 .slide-4 {
-  background-image: linear-gradient(315deg, rgba(209, 185, 161, 0), rgba(42, 40, 37, .58)), url('../images/astiat.webp');
+  background-image: linear-gradient(315deg, #d1b9a100, #2a282594), url('../images/astiat.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -691,17 +688,17 @@ body {
 }
 
 .grid-header {
-  background-color: rgba(228, 229, 233, .3);
-  border-top: 1px solid rgba(102, 102, 102, .3);
-  border-bottom: 1px solid rgba(102, 102, 102, .3);
-  border-left: 1px solid rgba(102, 102, 102, .3);
+  background-color: #e4e5e94d;
+  border-top: 1px solid #6666664d;
+  border-bottom: 1px solid #6666664d;
+  border-left: 1px solid #6666664d;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
 }
 
 .grid-header.last {
-  border-right: 1px solid rgba(102, 102, 102, .3);
+  border-right: 1px solid #6666664d;
 }
 
 .grid-header.white-no-top-border {
@@ -748,17 +745,17 @@ body {
 }
 
 .service-header {
-  background-color: rgba(228, 229, 233, .3);
-  border-top: 1px solid rgba(102, 102, 102, .3);
-  border-bottom: 1px solid rgba(102, 102, 102, .3);
-  border-left: 1px solid rgba(102, 102, 102, .3);
+  background-color: #e4e5e94d;
+  border-top: 1px solid #6666664d;
+  border-bottom: 1px solid #6666664d;
+  border-left: 1px solid #6666664d;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 40px;
 }
 
 .service-header.last {
-  border-right: 1px solid rgba(102, 102, 102, .3);
+  border-right: 1px solid #6666664d;
 }
 
 .service-header.white-no-top-border {
@@ -921,6 +918,35 @@ body {
   margin-bottom: 24px;
 }
 
+.image-9 {
+  object-fit: contain;
+  border-top-right-radius: 100%;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-10 {
+  object-fit: cover;
+  width: 100%;
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.div-block-9 {
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  display: flex;
+}
+
 @media screen and (min-width: 1440px) {
   .button-primary {
     background-color: #14142a;
@@ -937,7 +963,7 @@ body {
   }
 
   .container.slider {
-    background-color: rgba(0, 0, 0, .15);
+    background-color: #00000026;
     justify-content: flex-start;
     max-width: 1600px;
     margin-top: auto;
@@ -1660,6 +1686,12 @@ body {
   .image-full {
     height: 275px;
   }
+
+  .div-block-9 {
+    grid-column-gap: 4rem;
+    grid-row-gap: 4rem;
+    flex-flow: column;
+  }
 }
 
 #w-node-a6ba79f1-1663-1137-94a0-e2e986fad2aa-c7ae655b {
@@ -1678,7 +1710,7 @@ body {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-b9aa2511-6d2d-0e38-55e3-268b44f7b22d-7e99ddab, #w-node-_9799e24b-165e-43f7-4489-8d9f127c099d-7e99ddab, #w-node-acdb141a-bfe3-e325-6370-7663a31119d8-7e99ddab, #w-node-_877bc87a-334e-cf16-03c2-496b80a1e17f-7e99ddab, #w-node-_845b64f9-777c-f40c-8ba4-8155eda4ab3a-7e99ddab, #w-node-d1206211-33c9-6289-19e8-419b4f51a8cf-7e99ddab, #w-node-_3de03ca4-e86d-dd32-553a-c1af47dd70cb-7e99ddab, #w-node-c7947688-005a-8d6e-edba-a1989e37733b-7e99ddab, #w-node-_42d52d07-58e6-761d-c9cc-cd0941e9176a-7e99ddab, #w-node-a8be360a-979b-6f68-01b2-e32e2b9cdb9a-7e99ddab, #w-node-_1206fcc3-572e-b517-dbed-4610399805ae-7e99ddab, #w-node-_813f3c13-f1f9-8783-8469-af27f87ad11b-7e99ddab, #w-node-fdf99d4f-4999-d4c4-7c0c-c2fa8a451591-7e99ddab, #w-node-_20f00ac5-1d45-8e52-3ffb-160b31d895ba-7e99ddab, #w-node-_1823ea79-4582-f176-6103-f37ff402c911-7e99ddab, #w-node-c7ae9ec3-e24c-efd0-0f96-28f4c977e045-7e99ddab, #w-node-_0af6d1f2-b48e-653d-e665-d4d5e24988f8-7e99ddab, #w-node-_31c71acd-007b-33c3-b91d-1c77e9d6ccd7-7e99ddab, #w-node-a20c7f68-9121-f1bf-bb80-666a5929d0bf-7e99ddab, #w-node-dfc13ac2-233a-c0b3-03f7-79bd20f12285-7e99ddab, #w-node-_87bb01b0-65d9-d3f6-53bc-3eae53e8e0e2-7e99ddab, #w-node-d485b46c-6e50-b8d2-b1a2-69bf39ddab3c-7e99ddab, #w-node-_2d9f6167-b4f5-482a-c6b1-0c8503e62b78-7e99ddab, #w-node-_67f7bbc6-da5d-fa38-95fb-97f55bdd9bab-7e99ddab, #w-node-f4caeab7-0935-4f33-0af6-6ea33ceac337-7e99ddab, #w-node-_9726c631-dfce-cefd-fd64-44723523a357-7e99ddab, #w-node-_8ea88f2b-1dd3-040f-5487-e7805a437135-7e99ddab, #w-node-_4e9caa45-5d81-33c6-9672-1f4632dc84b1-7e99ddab, #w-node-_2d9bac51-8738-d070-3d19-7056f2226226-7e99ddab, #w-node-_66126301-700d-9910-b0d6-17f5b91e67d6-7e99ddab, #w-node-e61d1a53-a8dd-44d9-13d6-7d2062dbfdad-7e99ddab, #w-node-_9d48a0dd-d050-4c7c-be8d-32a4ff78e3a1-7e99ddab, #w-node-_5727861d-1ebb-a0b4-65b2-0bd20b92a631-7e99ddab, #w-node-_749b1750-db2f-796f-5e43-53fdaa7b746f-7e99ddab, #w-node-ff80cdc0-e54a-5d90-8be1-7a865ccdb1c4-7e99ddab {
+#w-node-b9aa2511-6d2d-0e38-55e3-268b44f7b22d-7e99ddab, #w-node-_9799e24b-165e-43f7-4489-8d9f127c099d-7e99ddab, #w-node-acdb141a-bfe3-e325-6370-7663a31119d8-7e99ddab, #w-node-_877bc87a-334e-cf16-03c2-496b80a1e17f-7e99ddab, #w-node-_845b64f9-777c-f40c-8ba4-8155eda4ab3a-7e99ddab, #w-node-d1206211-33c9-6289-19e8-419b4f51a8cf-7e99ddab, #w-node-_3de03ca4-e86d-dd32-553a-c1af47dd70cb-7e99ddab, #w-node-c7947688-005a-8d6e-edba-a1989e37733b-7e99ddab, #w-node-_42d52d07-58e6-761d-c9cc-cd0941e9176a-7e99ddab, #w-node-a8be360a-979b-6f68-01b2-e32e2b9cdb9a-7e99ddab, #w-node-_1206fcc3-572e-b517-dbed-4610399805ae-7e99ddab, #w-node-_813f3c13-f1f9-8783-8469-af27f87ad11b-7e99ddab, #w-node-fdf99d4f-4999-d4c4-7c0c-c2fa8a451591-7e99ddab, #w-node-_20f00ac5-1d45-8e52-3ffb-160b31d895ba-7e99ddab, #w-node-_1823ea79-4582-f176-6103-f37ff402c911-7e99ddab, #w-node-c7ae9ec3-e24c-efd0-0f96-28f4c977e045-7e99ddab, #w-node-_0af6d1f2-b48e-653d-e665-d4d5e24988f8-7e99ddab, #w-node-_31c71acd-007b-33c3-b91d-1c77e9d6ccd7-7e99ddab, #w-node-a20c7f68-9121-f1bf-bb80-666a5929d0bf-7e99ddab, #w-node-dfc13ac2-233a-c0b3-03f7-79bd20f12285-7e99ddab, #w-node-_87bb01b0-65d9-d3f6-53bc-3eae53e8e0e2-7e99ddab, #w-node-d485b46c-6e50-b8d2-b1a2-69bf39ddab3c-7e99ddab, #w-node-_2d9f6167-b4f5-482a-c6b1-0c8503e62b78-7e99ddab, #w-node-_67f7bbc6-da5d-fa38-95fb-97f55bdd9bab-7e99ddab, #w-node-f4caeab7-0935-4f33-0af6-6ea33ceac337-7e99ddab, #w-node-_9726c631-dfce-cefd-fd64-44723523a357-7e99ddab, #w-node-_8ea88f2b-1dd3-040f-5487-e7805a437135-7e99ddab, #w-node-_4e9caa45-5d81-33c6-9672-1f4632dc84b1-7e99ddab, #w-node-_2d9bac51-8738-d070-3d19-7056f2226226-7e99ddab, #w-node-_66126301-700d-9910-b0d6-17f5b91e67d6-7e99ddab, #w-node-e61d1a53-a8dd-44d9-13d6-7d2062dbfdad-7e99ddab, #w-node-_9d48a0dd-d050-4c7c-be8d-32a4ff78e3a1-7e99ddab, #w-node-_5727861d-1ebb-a0b4-65b2-0bd20b92a631-7e99ddab, #w-node-_749b1750-db2f-796f-5e43-53fdaa7b746f-7e99ddab, #w-node-ff80cdc0-e54a-5d90-8be1-7a865ccdb1c4-7e99ddab, #w-node-_7cc69233-9cb0-aa57-d444-6037ff108dea-479f26ff, #w-node-_573f3340-b693-df1d-ff2d-963531157149-479f26ff {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
